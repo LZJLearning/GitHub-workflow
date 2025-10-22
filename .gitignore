@@ -1,9 +1,23 @@
-# Python virtual environments
-.venv/
-
-# Byte-compiled / cache
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
 
-# OS / Editor specific
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# Docker
 *.log
-*.DS_Store
+*.pid
+
+# Others
+.DS_Store
